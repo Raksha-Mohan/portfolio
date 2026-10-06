@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raksha Mohan</title>
+<meta name="description" content="Selected research and projects by Raksha Mohan, M.S. in Data Science, UMass Dartmouth.">
+<style>
+:root{--ink:#222;--muted:#6b6b6b;--line:#e3e3e3;--link:#1a5fb4}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--ink);font:17px/1.7 "Helvetica Neue",Helvetica,Arial,sans-serif}
+a{color:var(--link)}
+a:focus-visible{outline:3px solid var(--link);outline-offset:2px}
+img{display:block;max-width:100%;height:auto}
+h1,h2,.site{font-family:Georgia,"Times New Roman",serif;font-weight:400;text-transform:uppercase}
+
+/* header */
+.top{text-align:center;padding:34px 20px 0}
+.site{font-size:2rem;letter-spacing:.14em;margin:0}
+.tag{margin:2px 0 0;color:var(--muted);font-size:.95rem;letter-spacing:.04em}
+nav{margin-top:22px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 16px}
+nav a{color:var(--ink);text-decoration:none;margin:0 16px;font-size:.95rem;display:inline-block}
+nav a:hover{text-decoration:underline}
+
+.page{max-width:1020px;margin:0 auto;padding:0 24px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;padding:56px 0}
+.row.flip .text{order:2}
+.text h2{font-size:1.45rem;letter-spacing:.05em;line-height:1.3;margin:0}
+.when{margin:6px 0 16px;color:var(--muted);font-style:italic}
+.text p{margin:0 0 14px}
+.stack{color:var(--muted);font-size:.95rem}
+.pics{display:grid;gap:16px;justify-items:center}
+.pics img{width:100%;max-width:460px}
+.pics .tall{aspect-ratio:3/4;object-fit:cover;object-position:top}
+.pics .wide{max-width:520px}
+.cap{font-size:.85rem;color:var(--muted);margin:-8px 0 0;text-align:center}
+.intro{padding-top:40px}
+.intro .text p{font-size:1.05rem}
+.sect{text-align:center;font-size:clamp(1.6rem,4vw,2.1rem);letter-spacing:.08em;margin:0 0 8px;padding-top:56px}
+.item{display:grid;grid-template-columns:190px 1fr;gap:32px;padding:20px 0;border-top:1px solid var(--line)}
+.item:first-of-type{border-top:0}
+.item .when{margin:2px 0 0}
+.item h3{font-size:1.1rem;margin:0;font-weight:700}
+.item .org{margin:0 0 8px;color:var(--muted);font-style:italic}
+.item p{margin:0 0 10px}
+.item ul{margin:0;padding-left:1.2em}
+.item li{margin-bottom:6px}
+.rule{border:0;border-top:1px solid var(--line);margin:0}
+
+footer{text-align:center;padding:48px 20px 56px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+footer a{color:var(--ink);margin:0 10px}
+footer p{margin:14px 0 0}
+
+@media (max-width:780px){
+ .item{grid-template-columns:1fr;gap:4px}
+ .row,.row.flip{grid-template-columns:1fr;gap:28px;padding:40px 0}
+ .row.flip .text{order:0}
+ .site{font-size:1.5rem}
+ nav a{margin:0 8px}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <h1 class="site">Raksha Mohan</h1>
+  <p class="tag">Data Scientist</p>
+  <nav aria-label="Main">
+    <a href="#research">Research</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="https://github.com/Raksha-Mohan">GitHub</a>
+    <a href="https://www.linkedin.com/in/raksha-mohan-68b366191/">LinkedIn</a>
+    <a href="mailto:raksha0604@gmail.com">Contact</a>
+  </nav>
+</header>
+
+<main class="page">
+
+  <section class="row intro">
+    <div class="text">
+      <p>Here you will find selections from my work for my M.S. in Data Science: research I have presented, and projects in healthcare machine learning, privacy, and data engineering. Most of them come back to the same question, which is how to build models people can understand and trust.</p>
+      <p>I defended my thesis and graduated this May, and I'm now looking for full-time roles in data science and machine learning. I hope you enjoy seeing what I've been working on.</p>
+    </div>
+    <div class="pics"><img class="tall" src="images/must-poster-photo.jpg" alt="Raksha standing next to her research poster"></div>
+  </section>
+
+  <hr class="rule">
+
+  <section class="row" id="research">
+    <div class="text">
+      <h2>SIAM Northeast Section Annual Meeting 2026</h2>
+      <p class="when">Contributed talk, 2026</p>
+      <p>I presented "Predicting Microbiologically Influenced Corrosion Severity from Electrochemical Impedance Spectroscopy Using Interpretable Machine Learning," which looks at how machine learning and SHAP can predict corrosion severity while still showing what is driving each prediction.</p>
+      <p>One of my favorite parts of the conference was the plenary talks. Samuel Isaacson spoke on bridging scales in cell biology, Misha Kilmer on tensor structures in imaging, and John Urschel on the conditioning of submatrices of the Fourier matrix. All three were far from my own research, and all three gave me new ways to think about using mathematics and computation on complicated problems.</p>
+      <p>Thank you to my co-author Maricris Lodriguito Mayes for her guidance and mentorship, the Mayes Group for their support, and the MUST Program for funding this research.</p>
+      <p><a href="https://doi.org/10.62791/20612">Read the thesis</a></p>
+    </div>
+    <div class="pics"><img src="images/siam-talk.jpg" alt="Raksha presenting at the SIAM Northeast Section Annual Meeting"></div>
+  </section>
+
+  <section class="row flip">
+    <div class="text">
+      <h2>Marine and UnderSea Technology (MUST) Technical Review</h2>
+      <p class="when">Poster and oral presentation, 2026</p>
+      <p>This two-day event at UMass Dartmouth brought together research funded through the Office of Naval Research, in partnership with the Naval Undersea Warfare Center Division Newport. I presented a poster and a few slides on machine learning models for Microbially Influenced Corrosion, which is corrosion accelerated by bacteria on metal surfaces. SHAP analysis keeps the models interpretable instead of treating them as a black box.</p>
+      <p>What stood out most was everything around my own project. The talks and posters covered autonomous underwater vehicles, undersea acoustics, biofouling, battery systems, and offshore wind, and I got to talk with faculty, students, and Navy-affiliated researchers about how these pieces fit together.</p>
+      <p>Thank you to my advisor Prof. Maricris Mayes and PI Prof. Pia Moisander, the Mayes Lab, and the MUST program.</p>
+    </div>
+    <div class="pics">
+      <img class="tall" src="images/must-talk.jpg" alt="Raksha presenting at the podium during the MUST Technical Review" loading="lazy">
+      <img src="images/must-poster.jpg" alt="Research poster on predicting corrosion severity with interpretable machine learning" loading="lazy">
+      <p class="cap">The poster</p>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section class="row" id="projects">
+    <div class="text">
+      <h2>Federated Database System</h2>
+      <p class="when">Healthcare data integration</p>
+      <p>A federated database gives one query interface to several independent databases while the data stays in the original systems. In this project, hospital records in Microsoft SQL Server and insurance policies and claims in Neo4j are combined through a FastAPI layer, so one API call returns a full patient profile without copying or syncing data.</p>
+      <p>Each system keeps its own schema and ownership. A schema mapping layer handles the differences between the relational and graph models, there's a React interface with separate portals, and everything runs in Docker Compose.</p>
+      <p class="stack">Python, FastAPI, SQL Server, Neo4j, React, Pydantic, Docker</p>
+      <p><a href="https://lnkd.in/eC_p4yRd">View the project</a></p>
+    </div>
+    <div class="pics"><img class="wide" src="images/federated-database.jpg" alt="Architecture diagram of the healthcare and insurance federated database system" loading="lazy"></div>
+  </section>
+
+  <section class="row flip">
+    <div class="text">
+      <h2>Real-Time IoT Data Pipeline</h2>
+      <p class="when">Industrial sensor monitoring</p>
+      <p>An end-to-end pipeline that monitors 25 sensors across 5 industrial locations, tracking temperature, humidity, CO2, pressure, and light. It handles over 45,000 messages an hour with under 50 ms average latency, validates and normalizes the data, raises threshold alerts, and flags anomalies with z-scores.</p>
+      <p>Kafka carries the stream, PostgreSQL stores the time series, Airflow runs the hourly batch jobs, and Prometheus and Grafana power the dashboards.</p>
+      <p class="stack">Apache Kafka, PostgreSQL, Apache Airflow, Prometheus, Grafana, Docker</p>
+      <p><a href="https://lnkd.in/exDxcdY6">View the project</a></p>
+    </div>
+    <div class="pics"><img class="wide" src="images/iot-pipeline.jpg" alt="Architecture diagram of the IoT data pipeline" loading="lazy"></div>
+  </section>
+
+  <section class="row">
+    <div class="text">
+      <h2>Explainable AI for Hospital Discharge Data</h2>
+      <p class="when">Healthcare analytics</p>
+      <p>I clustered NY SPARCS inpatient discharge records with K-means and DBSCAN, then profiled each cluster by length of stay, cost, severity, and demographics. Feature importance, radar charts, heatmaps, and PCA plots show what defines each group.</p>
+      <p>The results point to a small number of patient clusters that account for a large share of costs, which is useful for resource planning. Healthcare decisions often rely on black-box models, and this project shows how explainability can make the insights easier to trust and act on.</p>
+      <p class="stack">Python, scikit-learn, K-means, DBSCAN, PCA</p>
+      <p><a href="https://lnkd.in/g_Eavnsh">View the project</a></p>
+    </div>
+    <div class="pics"><img class="wide" src="images/explainable-ai.jpg" alt="Bar chart of the top 10 features contributing to clustering" loading="lazy"></div>
+  </section>
+
+  <section class="row flip">
+    <div class="text">
+      <h2>Federated Learning for Healthcare</h2>
+      <p class="when">Privacy-preserving machine learning</p>
+      <p>A system that predicts how often patients with chronic conditions will visit, which helps providers plan for their needs. With federated learning, models train across distributed healthcare data and sensitive patient records are never centralized, so organizations can build better models together while keeping data private.</p>
+      <p>It has a Streamlit front end and a FastAPI backend.</p>
+      <p class="stack">Python, PyTorch, FastAPI, Streamlit</p>
+      <p><a href="https://lnkd.in/gEHiGVPS">View the project</a></p>
+    </div>
+    <div class="pics"><img class="wide" src="images/federated-learning.jpg" alt="Diagram of federated learning combining locally trained models" loading="lazy"></div>
+  </section>
+
+
+  <hr class="rule">
+
+  <section id="experience">
+    <h2 class="sect">Experience</h2>
+    <div class="item">
+      <p class="when">Aug 2025 to May 2026</p>
+      <div>
+        <h3>Research Assistant, AI/ML for Marine and Undersea Technology</h3>
+        <p class="org">Mayes Lab, University of Massachusetts Dartmouth</p>
+        <ul>
+          <li>Developed and validated ensemble ML models to predict Microbially Influenced Corrosion severity, and compiled and harmonized multi-source datasets. Applied SHAP to connect black-box predictions with established electrochemical theory.</li>
+          <li>Built and compared three modeling approaches to predict ionic liquid solubility across organic solvents, with feature importance analysis. Worked with domain scientists on data collection, preprocessing pipelines, and feature engineering.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="item">
+      <p class="when">Jun 2025 to Aug 2025</p>
+      <div>
+        <h3>Research Assistant, Privacy-Preserving AI Inference</h3>
+        <p class="org">University of Massachusetts Dartmouth</p>
+        <ul><li>Developed machine learning models using cryptographic methods, relevant to deploying AI in sensitive biomedical environments.</li></ul>
+      </div>
+    </div>
+    <div class="item">
+      <p class="when">Aug 2021 to Jul 2024</p>
+      <div>
+        <h3>Senior Technical Solution Engineer</h3>
+        <p class="org">Zoho Corporation, India</p>
+        <ul>
+          <li>Automated data processing workflows with Python, improving operational efficiency by 25%. Built and maintained ETL pipelines feeding Tableau and Power BI, cutting report generation time by 15%.</li>
+          <li>Implemented GDPR-compliant data management for EU user data across pipelines and storage systems.</li>
+          <li>Delivered insights from customer interaction data to inform product decisions, and mentored 7 team members on data tooling and troubleshooting.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="item">
+      <p class="when">Undergraduate training</p>
+      <div>
+        <h3>Industrial research and training</h3>
+        <ul>
+          <li><strong>Kothari Petrochemicals:</strong> designed and modeled a debutanizer column using the Fenske-Underwood-Gilliland method, with multicomponent distillation and energy analysis.</li>
+          <li><strong>BPCL, Predictive Analytics intern:</strong> analyzed industrial sensor data in MATLAB and reduced production downtime by 15%.</li>
+          <li><strong>Cetex Petrochemicals, Process Optimization trainee:</strong> used Python regression models for process diagnostics and raised process yield by 12%.</li>
+          <li><strong>SPIC, Urea Plant trainee:</strong> analyzed reactor functionality and process efficiency in urea synthesis.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="item">
+      <p class="when">Teaching</p>
+      <div>
+        <h3>Teaching Assistant, Heat Transfer</h3>
+        <p class="org">Dr. K. Jeyajothi, Department of Petrochemical Engineering</p>
+        <p>Supported first-year students in conduction, convection, and radiation through tutorials, lab exercises, and heat exchanger analysis.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="education">
+    <h2 class="sect">Education</h2>
+    <div class="item">
+      <p class="when">May 2026</p>
+      <div>
+        <h3>M.S. in Data Science, GPA 3.97/4.0</h3>
+        <p class="org">University of Massachusetts Dartmouth</p>
+        <p>Thesis: "Predicting Microbiologically Influenced Corrosion Severity from Electrochemical Impedance Spectroscopy Using Interpretable Machine Learning." Advisor: Dr. Maricris Mayes. <a href="https://doi.org/10.62791/20612">DOI: 10.62791/20612</a></p>
+        <p>Coursework: Fundamentals of Deep Learning, Advanced Data Mining, Big Data Analytics, Advanced Mathematical Statistics, High-Performance Scientific Computing</p>
+      </div>
+    </div>
+    <div class="item">
+      <p class="when">May 2021</p>
+      <div>
+        <h3>B.E. in Petrochemical Engineering</h3>
+        <p class="org">Anna University, Chennai, India</p>
+      </div>
+    </div>
+    <div class="item">
+      <p class="when">Funding</p>
+      <div><p>Thesis research funded by the MUST (Marine and UnderSea Technology) Program through the Office of Naval Research, in partnership with the Naval Undersea Warfare Center Division Newport.</p></div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section>
+    <h2 class="sect">More Projects</h2>
+    <div class="item">
+      <p class="when">Research, publication pending</p>
+      <div>
+        <h3>Multi-Solvent Solubility Prediction for Vanadium-Based Hybrid Salts</h3>
+        <p>Machine learning models that predict the solubility of ionic coordination compounds across a range of solvents, using DFT-derived thermodynamic features and molecular descriptors, with interpretable models to show how the main drivers change with solvent polarity.</p>
+      </div>
+    </div>
+    <div class="item">
+      <p class="when">PyTorch, Python</p>
+      <div>
+        <h3>Sepsis Prediction Using LSTM with Time-Delta Embeddings</h3>
+        <p>An LSTM for early sepsis prediction (6-hour window) on sequential ICU data from 40,336 patients. Time-delta embeddings handle irregular clinical sampling, reaching 86% accuracy.</p>
+      </div>
+    </div>
+    <div class="item">
+      <p class="when">PyTorch, ResNet18</p>
+      <div>
+        <h3>Brain Tumor Classification Using Transfer Learning</h3>
+        <p>A hybrid model that combines a custom feature restoration layer with ResNet18 for 4-class tumor classification, reaching 97.44% test accuracy on 7,023 biomedical images.</p>
+      </div>
+    </div>
+    <div class="item">
+      <p class="when">Python</p>
+      <div>
+        <h3>Healthcare Test Results Classification: Domain-Adaptive Deep Learning</h3>
+        <p>A domain-adaptive classifier on 55,500 patient records from 39,876 heterogeneous hospitals, using Domain-Specific Batch Norm and CORAL loss to handle domain shift across clinical data sources.</p>
+      </div>
+    </div>
+    <div class="item">
+      <p class="when">Time series</p>
+      <div>
+        <h3>Advanced Time Series Analysis in Formula 1</h3>
+        <p>ARIMA models on racing telemetry to capture trends and anomalies, improving forecast accuracy by 75%.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section>
+    <h2 class="sect">Skills</h2>
+    <div class="item"><p class="when">Programming</p><div><p>Python (advanced), R, SQL, MATLAB</p></div></div>
+    <div class="item"><p class="when">ML and deep learning</p><div><p>PyTorch, scikit-learn, transfer learning, LSTM, federated learning, domain adaptation, explainable AI</p></div></div>
+    <div class="item"><p class="when">LLMs and agentic AI</p><div><p>Large language models, agentic system design, privacy-preserving inference, zero-knowledge frameworks</p></div></div>
+    <div class="item"><p class="when">MLOps and engineering</p><div><p>Docker, Apache Kafka, Apache Airflow, PostgreSQL, Prometheus, Grafana, Git, ETL pipeline design</p></div></div>
+    <div class="item"><p class="when">Visualization and BI</p><div><p>Tableau, Power BI, high-performance computing</p></div></div>
+    <div class="item"><p class="when">Compliance</p><div><p>GDPR data management, Six Sigma, Project Management Certified</p></div></div>
+  </section>
+
+  <section>
+    <h2 class="sect">Other Presentations</h2>
+    <div class="item"><p class="when">National Conference</p><div><p>Paper presentation: "Recent Trends in Fiber Optic Communication"</p></div></div>
+    <div class="item"><p class="when">Seminar</p><div><p>"Existing Scenario in Chemical and Petrochemical Engineering for Sustainable Development"</p></div></div>
+    <div class="item"><p class="when">Workshops</p><div><p>International workshop: Sustainability of Biofuels. National workshop: Guidelines for Safety Measurement in Petrochemical Industries.</p></div></div>
+  </section>
+
+  <hr class="rule">
+
+  <section class="row">
+    <div class="text">
+      <h2>ISPE Boston Area Career Development Workshop</h2>
+      <p class="when">Community</p>
+      <p>I'm a part of ISPE, and this workshop reinforced something I practice every day as a data science researcher: curiosity drives results. Beyond technical skills, asking questions, exploring ideas, and engaging with others are what turn knowledge into action, and I'm excited to bring that mindset to my next projects.</p>
+    </div>
+    <div class="pics"><img src="images/ispe.jpg" alt="Group photo of attendees at the ISPE workshop" loading="lazy"></div>
+  </section>
+
+</main>
+
+<footer>
+  <a href="https://github.com/Raksha-Mohan">GitHub</a>
+  <a href="https://www.linkedin.com/in/raksha-mohan-68b366191/">LinkedIn</a>
+  <a href="mailto:raksha0604@gmail.com">Email</a>
+  <p>&copy;2026 by Raksha Mohan</p>
+</footer>
+</body>
+</html>
